@@ -53,13 +53,13 @@ export default function Show() {
   }, []);
 
   return (
-    <main className="absolute inset-0 bg-[#DAEDFF] sm:flex sm:items-center sm:justify-center">
+    <main className="absolute inset-0 sm:flex sm:items-center sm:justify-center">
       <div className="absolute top-4 z-0 w-full">
         <NavBar />
       </div>
-      <div className="absolute inset-x-64 top-64 sm:inset-x-16">
+      <div className="absolute inset-x-16 top-32 sm:top-64 md:inset-x-64">
         <div className="flex flex-auto flex-col">
-          <div className="text-left text-6xl font-bold sm:ml-10 sm:text-2xl md:text-2xl lg:text-4xl 2xl:ml-36 2xl:text-6xl">
+          <div className="text-left text-2xl font-bold sm:ml-10 sm:text-2xl md:text-2xl lg:text-4xl 2xl:ml-36 2xl:text-6xl">
             <span className="block text-[#1119CB] ">Payment</span>
             <div className="mt-8 flex flex-col">
               <a className="text-xl font-semibold text-black">{product}</a>

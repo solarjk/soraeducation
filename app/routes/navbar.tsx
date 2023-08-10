@@ -33,7 +33,7 @@ export default function NavBar() {
                   alt="Sora Education"
                 />
               </div>
-              <div className="inline-block flex h-12 items-center justify-center rounded-full bg-white align-middle sm:items-stretch sm:justify-end ">
+              <div className="hidden h-12 items-center justify-center rounded-full bg-white align-middle md:inline-block md:flex md:items-stretch md:justify-end ">
                 <MenuMap items={menuItems} />
               </div>
 
@@ -122,8 +122,8 @@ export default function NavBar() {
                   href={item.url}
                   className={classNames(
                     item.current
-                      ? "bg-gray-900 text-white"
-                      : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                      ? "bg-indigo-900 text-white"
+                      : "bg-indigo-300 text-white hover:bg-gray-700 hover:text-white",
                     "block rounded-md px-3 py-2 text-base font-medium"
                   )}
                   aria-current={item.current ? "page" : undefined}

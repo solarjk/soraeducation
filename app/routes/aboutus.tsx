@@ -5,18 +5,18 @@ export const meta: V2_MetaFunction = () => [{ title: "About Us" }];
 
 export default function Show() {
   return (
-    <main className="absolute inset-0 bg-[#DAEDFF] sm:flex sm:items-center sm:justify-center">
+    <main className="absolute inset-0 sm:flex sm:items-center sm:justify-center">
       <div className="absolute top-4 z-0 w-full">
         <NavBar />
       </div>
-      <div className="absolute inset-x-64 top-44 sm:inset-x-16">
+      <div className="absolute inset-x-16 top-44 md:inset-x-64">
         <div className="flex flex-auto">
           <div className="mt-20 shrink basis-1/2">
-            <h3 className="text-left text-6xl font-bold sm:text-2xl md:text-2xl lg:text-4xl 2xl:text-6xl">
+            <h3 className="text-left text-2xl font-bold sm:text-2xl md:text-2xl lg:text-4xl 2xl:text-6xl">
               <span className="block text-[#1119CB] sm:ml-10 2xl:ml-36">
                 ABOUT US
               </span>
-              <p className="mt-14 text-left text-3xl font-light text-black sm:text-lg md:text-xl lg:text-2xl 2xl:text-3xl">
+              <p className="mt-14 text-left text-lg font-light text-black sm:text-lg md:text-xl lg:text-2xl 2xl:text-3xl">
                 Welcome to Sora Tutoring, where we empower English learners of
                 all ages. Led by Sora, an experienced educator with nearly a
                 decade of tutoring expertise, including four years of teaching
