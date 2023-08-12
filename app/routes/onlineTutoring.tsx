@@ -10,7 +10,7 @@ export const meta: V2_MetaFunction = () => [{ title: "Online Tutoring" }];
 export default function Show() {
   return (
     <main className="absolute inset-0 sm:flex sm:items-center sm:justify-center">
-      <div className="absolute top-4 z-0 w-full">
+      <div className="absolute top-4 z-10 w-full">
         <NavBar />
       </div>
       <div className="absolute inset-x-16 top-32 sm:top-64 md:inset-x-64 ">
