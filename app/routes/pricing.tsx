@@ -36,9 +36,9 @@ export default function Show() {
             </div>
             <a className="text-lg">1 class</a>
             <button
-              className="h-12 w-32 rounded-lg border-2 border-blue-600 bg-blue-500 text-white"
+              className="h-12 w-32 rounded-lg border-2 border-blue-600 bg-blue-500 text-white line-through"
               onClick={() => {
-                navigate("/payment?item=one");
+                // navigate("/payment?item=one");
               }}
             >
               Purchase
@@ -54,9 +54,9 @@ export default function Show() {
             </div>
             <a className="text-lg">2 classs / week</a>
             <button
-              className="h-12 w-32 rounded-lg border-2 border-blue-600 bg-blue-500 text-white"
+              className="h-12 w-32 rounded-lg border-2 border-blue-600 bg-blue-500 text-white line-through"
               onClick={() => {
-                navigate("/payment?item=month");
+                // navigate("/payment?item=month");
               }}
             >
               Purchase
@@ -73,9 +73,9 @@ export default function Show() {
             <a className="text-lg">2 classs / week</a>
             <div id="payment-widget" />
             <button
-              className="h-12 w-32 rounded-lg border-2 border-blue-600 bg-blue-500 text-white"
+              className="h-12 w-32 rounded-lg border-2 border-blue-600 bg-blue-500 text-white line-through"
               onClick={() => {
-                navigate("/payment?item=year");
+                // navigate("/payment?item=year");
               }}
             >
               Purchase
